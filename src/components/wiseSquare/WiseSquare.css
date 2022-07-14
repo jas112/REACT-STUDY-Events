@@ -12,6 +12,25 @@
     transition: 1s;
 }
 
+.WiseSquare-container{
+    width: 600px;
+    height: 250px;
+    border: 4px solid #80808050;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #80808050;
+    font-size: 14px;
+    margin: 20px auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.WiseSquare-title{
+    font-size: 20px;
+    padding:20px 0px
+}
+
 .WiseSquare:hover{
     border: 4px solid skyblue;
     box-shadow: 2px 4px 8px skyblue;

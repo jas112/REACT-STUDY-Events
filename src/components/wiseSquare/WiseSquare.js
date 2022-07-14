@@ -40,9 +40,10 @@ class WiseSquare extends Component {
 
   render() {
     return (
-        <div>
+        <div className='WiseSquare-container'>
+            <div className='WiseSquare-title'>Wise Square</div>
             <div className='WiseSquare' onMouseEnter={this.dispenseWisdom}>🧐</div>
-            <h2>{this.state.message}</h2>
+            <h2>{this.state.message ? this.state.message : 'Click the square for wisdom.'}</h2>
         </div>
       
     )
