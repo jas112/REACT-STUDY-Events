@@ -4,7 +4,10 @@ import './NumberItem.css';
 class NumberItem extends Component {
   render() {
     return (
-      <div className='NumberItem'>{this.props.value}</div>
+      <li className='NumberItem'>
+        {this.props.value}
+        <button onClick={this.props.remove}>X</button>
+      </li>
     )
   }
 }

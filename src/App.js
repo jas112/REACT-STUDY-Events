@@ -5,6 +5,7 @@ import AnnoyingForm from './components/annoyingForm/AnnoyingForm';
 import ButtonList from './components/buttonList/ButtonList';
 import CopyDemo from './components/copyDemo/CopyDemo';
 import NumberList from './components/numberList/NumberList';
+import OptimizedNumberList from './components/optimizedNumberList/OptimizedNumberList';
 import './App.css';
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
       {/* <ExperimentalSquare/> */}
       {/* <ButtonList/> */}
       <NumberList/>
-
+      <OptimizedNumberList/>
     </div>
   );
 }
