@@ -1,0 +1,23 @@
+.NumberItem{
+    width: 100px;
+    height: 30px;
+    border: 4px solid #80808050;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #80808050;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px auto;
+    padding:5px 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    transition: .5s;
+}
+
+.NumberItem:hover{
+    border: 4px solid violet;
+    box-shadow: 2px 2px 2px violet;
+    color: violet;
+    transition: .5s;
+}

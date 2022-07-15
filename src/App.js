@@ -4,18 +4,21 @@ import ExperimentalSquare from './components/experimentalSquare/ExperimentalSqua
 import AnnoyingForm from './components/annoyingForm/AnnoyingForm';
 import ButtonList from './components/buttonList/ButtonList';
 import CopyDemo from './components/copyDemo/CopyDemo';
+import NumberList from './components/numberList/NumberList';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <h1>React Events Practice</h1>
-      {/* <WiseSquare/>
-      <AnnoyingForm/>
-      <CopyDemo/>
-      <WiseSquareWithProps/>
-      <ExperimentalSquare/> */}
-      <ButtonList/>
+      {/* <WiseSquare/> */}
+      {/* <AnnoyingForm/> */}
+      {/* <CopyDemo/> */}
+      {/* <WiseSquareWithProps/> */}
+      {/* <ExperimentalSquare/> */}
+      {/* <ButtonList/> */}
+      <NumberList/>
+
     </div>
   );
 }
